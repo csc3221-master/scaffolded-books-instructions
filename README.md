@@ -303,6 +303,9 @@ npm install express
 ```
 This will create the file`package.json`,  `package-lock.json`, and `node_modules`.
 
+<img src="images/phase2-npm.png" width="75%" />
+
+
 2. Change `server.js` to have the code below
 ```js
 const express = require("express");
@@ -359,7 +362,7 @@ app.listen(PORT, "0.0.0.0", () => {
 3. Test (Just like Phase 1)
    1. Run the server: `node server.js`
    
-   <img src="images/phase1-run-node.png" width="75%" />
+   <img src="images/phase2-run-node.png" width="75%" />
 
    2. Do a get request: `curl -i http://localhost:3000/`
 
@@ -381,3 +384,8 @@ app.listen(PORT, "0.0.0.0", () => {
    ```
 
   <img src="images/phase1-curl-post.png" width="75%" />
+
+-----
+
+> Note that the web page and its response is exactly the same, but the code to get to this is different!
+
